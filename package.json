@@ -1,0 +1,16 @@
+{
+  "name": "totp-express",
+  "version": "0.0.0",
+  "description": "Time based One Time Password implementation.  Renders QR codes for secrets, and provides api to generate or validate tokens",
+  "main": "server.js",
+  "repository": "",
+  "author": "Kris Van de Steeg",
+  "license": "closed",
+  "dependencies": {
+    "notp": "^2.0.3",
+    "thirty-two": "0.0.2",
+    "express": "^4.11.1",
+    "morgan": "^1.5.1",
+    "qr-image": "^3.1.0"
+  }
+}
